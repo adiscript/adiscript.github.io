@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:400,600&display=swap');
+* {
+  box-sizing: border-box;
+}
+header{
+  background:WhiteSmoke;
+}
+iframe{
+  margin-bottom:20px;
+}
+body{
+  margin: 50px 0 0 ;
+  font-family:'Roboto', sans-serif;
+  line-height:1.4;
+}
+img {
+ height:200px;
+ width:490px;
+ border: 3px solid red;
+  border-radius:20px;
+}
+section{
+  margin-bottom:20px;
+}
+section h2{
+  text-align:center;
+  margin-top:40px;
+}
+.btn{
+  background:green;
+  color:white;
+  padding:12px 15px;
+  border: 2px solid cyan;
+  border-radius:10px;
+  box-shadow:2px 2px 5px brown;
+  text-decoration:none;
+  display:inline-block;
+  transform: translate(10px, 10px);
+  position:relative;
+  transition: all 0.2s ease;
+}
+.btn:active{
+  box-shadow:0.5px 0.5px 0px red;
+  transform: translate(2px, 2px);
+}
+.container{
+  display:flex;
+  justify-content:center;
+  max-width:700px;
+  margin:0 auto;
+  flex-wrap:wrap;
+}
+
+nav {
+  box-shadow:0 3px 5px rgba(0, 0, 0, 0.5); 
+  background:pink;
+  display:flex;
+  justify-content:center;
+  padding:15px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+}
+.nav-link{
+  color:black;
+  text-decoration:none;
+  margin:0 15px;
+}
+.b{
+  background:Wheat;
+}
+.g{
+  background:PeachPuff;
+}
+.header-left{
+  width:80%;
+  padding-right:20px;
+}
+.header-right{
+  width:40%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/*Features Section */
+.feature{
+  background:khaki;
+  border-radius:10px;
+box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+  margin:0px 1.66%;
+  padding:12px;
+  width:30%;
+    text-align:center;
+}
+.feature svg {
+  margin-top:10px;
+  font-size:40px;
+}
+.feature h2 {
+  font-size:20px;
+  color: Plum;
+  margin-top:5px;
+}
+.feature p {
+  font-size: 14px;
+  line-height:24px;
+}
+/*Join section*/
+.bg{
+  background:Linen;
+}
+form{
+  margin-bottom:40px;
+}
+form input{
+  color:white;
+  padding:12px 15px;
+  border: 2px solid yellow;
+  border-radius:10px;
+  box-shadow:2px 2px 5px brown;
+  display:inline-block;
+}
+/*footer styling*/
+footer{
+  background:gray;
+  color: FloralWhite;
+  margin-top:20px;
+  padding:10px;
+  text-align:center;
+}
+footer svg{
+  color:red;
+}
+@media(max-width:480px){
+  .header-left, .header-right{
+    width:100%;
+  }
+  .header-left{
+    order:0;
+    text-align:center;
+  }
+  .header-right{
+    order:1;
+  }
+  .feature{
+    margin:10px;
+    width:100%;
+  }
+}
+footer img{
+  border:0px;
+  width:25px;
+  height:20px;
+  padding:0px;
+}
